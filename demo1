@@ -1,0 +1,15 @@
+from PyQt5.Qt import *
+import  sys
+
+app=QApplication(sys.argv)
+windows=QWidget()
+windows.setWindowTitle("11111111111")
+windows.resize(400,500)
+
+
+
+
+
+
+windows.show()
+sys.exit(app.exec_())
